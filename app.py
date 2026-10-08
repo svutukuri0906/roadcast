@@ -299,7 +299,6 @@ def ai_stream(prompt, api_key, model):
     with client.messages.stream(
         model=model,
         max_tokens=400,
-        temperature=0.2,
         messages=[{"role": "user", "content": prompt}],
     ) as stream:
         for text in stream.text_stream:
