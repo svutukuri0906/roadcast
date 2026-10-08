@@ -1,0 +1,6 @@
+streamlit>=1.38
+pydeck>=0.9
+altair>=5
+pandas
+requests
+anthropic>=0.40
